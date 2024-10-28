@@ -1,0 +1,140 @@
+:root{
+    --main-color:#64CCC5;
+    --black1-color: #0C0C0C;
+    --black2-color:#121212;
+    --width1-color:#FFFFFF;
+    --width2-color:#F4F4F4;
+    --width3-colot:#DFDFDF;
+    
+}
+
+header{
+    background-color: var(--width1-color);
+}
+
+header nav li a{
+    color: var(--black1-color);
+}
+
+header .loging span{
+    color: var(--black1-color);
+}
+header .loging a{
+    background-color: var(--black1-color);
+    color: var(--width1-color);
+}
+
+/* header */
+
+/* contact */
+.contact{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.contact-heading p{
+    border-bottom: 1px solid var(--black2-color);
+}
+
+.contact-sole{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact-sole .address{
+    display: flex;
+    gap: 1rem;
+}
+.contact-sole .address span{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--black1-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-sole .address span i{
+   color: var(--width1-color);
+   font-size: 25px;
+}
+.contact-sole .address .email h5{
+   font-weight: 600;
+   margin: 0;
+}
+
+
+form{
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--width3-colot);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+form .name{
+    height: 77px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+form .name input{
+    width: 100%;
+    padding: .5rem;
+    padding-bottom: 1rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid var(--black2-color);
+}
+form .name-mass #massage{
+    width: 100%;
+    height: 150px;
+    padding: 0 .5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid var(--black2-color);
+    
+}
+form .name-mass #submit{
+    padding: .5rem 1rem;
+    outline: none;
+    border: none;
+    background-color: var(--black1-color);
+    color: var(--width1-color);
+    transition: .5s;
+}
+form .name-mass #submit:hover{
+    color: var(--main-color);
+}
+
+.google-map{
+    width: 100%;
+    margin-top: 4rem;
+}
+#inlineFrameExample{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+/* contact end*/
+
+
+@media (max-width:1320px){
+    
+}
+@media (max-width:1140px){
+}
+@media (max-width:960px){ 
+    
+}
+@media (max-width:720px){
+    form .name{
+        flex-direction: column;
+    }
+}
+@media (max-width:540px){  
+}

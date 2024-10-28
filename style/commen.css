@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+
+:root{
+    --main-color:#64CCC5;
+    --black1-color: #0C0C0C;
+    --black2-color:#121212;
+    --width1-color:#FFFFFF;
+    --width2-color:#F4F4F4;
+    --width3-colot:#DFDFDF;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    /* font-family: "Roboto Serif", serif; */
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.heading{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Roboto Serif", serif;
+}
+
+
+section{
+    padding: 1.5rem 7%;
+}
+
+p{
+    font-size: 18px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1320px){
+    
+}
+@media (max-width:1140px){
+}
+@media (max-width:960px){ 
+    
+}
+@media (max-width:720px){
+}
+@media (max-width:540px){  
+}

@@ -1,0 +1,113 @@
+:root{
+    --main-color:#64CCC5;
+    --black1-color: #0C0C0C;
+    --black2-color:#121212;
+    --width1-color:#FFFFFF;
+    --width2-color:#F4F4F4;
+    --width3-colot:#DFDFDF;
+    
+}
+
+header{
+    background-color: var(--width1-color);
+}
+
+header nav li a{
+    color: var(--black1-color);
+}
+
+header .loging span{
+    color: var(--black1-color);
+}
+header .loging a{
+    background-color: var(--black1-color);
+    color: var(--width1-color);
+}
+
+/* header */
+
+/* about hero */
+.about{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+
+.about-hero{
+    height: 590px;
+    width: 100%;
+    background-image: url(../img/image12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    z-index: 1;
+}
+.about .container .rows{
+    position: relative;
+    margin-top: -4rem;
+    z-index: 10;
+    padding: 0 1rem;
+}
+.hero-contant{
+    padding: 2rem;
+    background-color: var(--black1-color);
+    border-radius: 15px;
+}
+.hero-contant h5{
+    color: var(--width1-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero-contant p{
+    color: var(--width1-color);
+}
+/* about hero end */
+
+/*  The Challenge  */
+
+.challenge-contant h3{
+    font-size: 30px;
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.challenge-contant p{
+    margin-bottom: 1rem;
+}
+
+
+
+/*  The Challenge end */
+
+
+/* Recent Showcase */
+.recent{
+    padding-top: 1rem;
+}
+.recent-contant img{
+    width: 100%;
+}
+/* Recent Showcase end */
+
+
+
+@media (max-width:1320px){
+    
+}
+@media (max-width:1140px){
+}
+@media (max-width:960px){ 
+    
+}
+@media (max-width:720px){
+}
+@media (max-width:540px){  
+    .about .container .rows{
+        margin-top: -7rem;
+    }
+    .hero-contant{
+        padding: 1rem;
+    }
+}
