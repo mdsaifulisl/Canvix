@@ -64,4 +64,4 @@ const observer = new IntersectionObserver((entries) => {
 
 // Start observing the section
 observer.observe(document.querySelector('.section-to-observe'));
-export const nav = document.querySelector('.nav');
+
